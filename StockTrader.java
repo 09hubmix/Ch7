@@ -35,4 +35,10 @@ for(int i = 0; i < months.length; i++){
 	System.out.printf("%.2f%n", prices[i]);
 }
 }
+public static int indexOfLowest(double[] prices) {
+	int lowestNumber = 0;
+	 for (int i = 0; i < prices.length; i++){
+		 if (prices[i] < prices[0]){
+public static int indexOfHighest(double[] prices) {
+
 }
